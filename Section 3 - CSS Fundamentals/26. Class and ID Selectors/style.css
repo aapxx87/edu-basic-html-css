@@ -1,0 +1,58 @@
+h1, h2, h3, h4, p, li {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 16px;
+}
+
+/* footer p {
+  font-size: 14px;
+} */
+
+/* header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 14px;
+}
+
+#copyright {
+  font-size: 14px;
+}
+
+.related-author {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+aside li {
+  list-style: none;
+}

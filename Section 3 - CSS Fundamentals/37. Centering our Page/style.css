@@ -1,0 +1,180 @@
+/* universal selector */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444;
+
+  border-top: 10px solid #1098ad;
+  /* если обнулить margin тут, то это свойство не применится к p */
+  /* margin: 0; */
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px - top and bottom, 40px - left and right */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1090ad;
+  border-bottom: 5px solid #1090ad;
+  padding: 50px 0;
+  width: 500px;
+}
+
+nav {}
+
+article {
+  margin-bottom: 60px;
+}
+
+
+
+h1,
+h2,
+h3 {
+  color: #1090ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* footer p {
+  font-size: 14px;
+} */
+
+/* header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 14px;
+}
+
+#copyright {
+  font-size: 14px;
+}
+
+.related-author {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+aside li {
+  list-style: none;
+}
+
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+/* first child */
+/* li:first-child {
+  font-weight: bold;
+} */
+
+
+/* last child */
+/* li:last-child {
+  font-style: italic;
+} */
+
+
+/* necessary (custom) child */
+/* li:nth-child(2) {
+  color: red;
+} */
+
+/* можно указать четные или нечетные элементы, пример с нечетными - odd - нечетные, even - четные */
+/* li:nth-child(odd) {
+  color: red;
+} */
+
+
+/* Styling links */
+a {
+  color: #1090ad;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: #1090ad;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
