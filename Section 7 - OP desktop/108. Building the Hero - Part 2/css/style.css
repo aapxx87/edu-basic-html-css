@@ -1,0 +1,32 @@
+html {
+  /* 106 */
+  font-size: 62.5%;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.hero {
+  /* we set a fixed width */
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  /* we need two equally size columns */
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  /* we set the size of image exatly equal to size of parent container */
+  width: 100%;
+}
