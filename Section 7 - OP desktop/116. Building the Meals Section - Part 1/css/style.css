@@ -210,8 +210,6 @@
   transform: translate(-50%, -50%);
 }
 
-
-
 .step-img-box::before {
   width: 60%;
   padding-bottom: 60%;
@@ -228,4 +226,14 @@
 
 .step-img {
   width: 35%;
+}
+
+
+
+/* ****************************** */
+/* MEALS SECTION */
+/* ****************************** */
+
+.section-meals {
+  padding: 9.6rem 0;
 }
